@@ -1,0 +1,3 @@
+rootProject.name = 'CybavoTest'
+
+include ':app'
