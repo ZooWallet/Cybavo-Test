@@ -1,3 +1,5 @@
 rootProject.name = 'CybavoTest'
+include ':@cybavo_react-native-wallet-service'
+project(':@cybavo_react-native-wallet-service').projectDir = new File(rootProject.projectDir, '../node_modules/@cybavo/react-native-wallet-service/android')
 
 include ':app'
