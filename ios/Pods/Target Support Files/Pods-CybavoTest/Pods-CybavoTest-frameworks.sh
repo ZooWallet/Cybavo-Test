@@ -165,20 +165,28 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CybavoWalletService/CybavoWalletService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftOTP/SwiftOTP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CryptoSwift/CryptoSwift.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/CybavoWalletService/CybavoWalletService.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/DoubleConversion/DoubleConversion.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/Folly/folly.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/React/React.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftOTP/SwiftOTP.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyUserDefaults/SwiftyUserDefaults.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/glog/glog.framework"
+  install_framework "${BUILT_PRODUCTS_DIR}/yoga/yoga.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait
