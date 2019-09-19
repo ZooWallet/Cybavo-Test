@@ -1,0 +1,6 @@
+framework module CybavoWalletService {
+  umbrella header "CybavoWalletService-umbrella.h"
+
+  export *
+  module * { export * }
+}

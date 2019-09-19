@@ -1,0 +1,6 @@
+framework module Pods_CybavoTest {
+  umbrella header "Pods-CybavoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

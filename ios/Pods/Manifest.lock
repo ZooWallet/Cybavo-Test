@@ -1,0 +1,57 @@
+PODS:
+  - Alamofire (4.9.0)
+  - AlamofireObjectMapper (5.2.1):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - CryptoSwift (1.0.0)
+  - CYBAVOWallet (1.1.103):
+    - Alamofire (~> 4.8)
+    - AlamofireObjectMapper (~> 5.2)
+    - CryptoSwift
+    - ObjectMapper (~> 3.4)
+    - SwiftOTP
+    - SwiftyUserDefaults (= 4.0.0-alpha.1)
+  - CybavoWalletService (1.0.1):
+    - CYBAVOWallet (~> 1.1.44)
+    - React
+  - ObjectMapper (3.5.1)
+  - React (0.11.0):
+    - React/Core (= 0.11.0)
+  - React/Core (0.11.0)
+  - SwiftOTP (2.0.0):
+    - CryptoSwift (>= 1.0.0)
+  - SwiftyUserDefaults (4.0.0-alpha.1)
+
+DEPENDENCIES:
+  - "CybavoWalletService (from `../node_modules/@cybavo/react-native-wallet-service/ios/CybavoWalletService.podspec`)"
+
+SPEC REPOS:
+  https://bitbucket.org/cybavo/Specs_501.git:
+    - CYBAVOWallet
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - AlamofireObjectMapper
+    - CryptoSwift
+    - ObjectMapper
+    - React
+    - SwiftOTP
+    - SwiftyUserDefaults
+
+EXTERNAL SOURCES:
+  CybavoWalletService:
+    :path: "../node_modules/@cybavo/react-native-wallet-service/ios/CybavoWalletService.podspec"
+
+SPEC CHECKSUMS:
+  Alamofire: afc3e7c6db61476cb45cdd23fed06bad03bbc321
+  AlamofireObjectMapper: 1989f690e982b71921b9253f53a4f33a9bc00d88
+  CryptoSwift: d81eeaa59dc5a8d03720fe919a6fd07b51f7439f
+  CYBAVOWallet: d0a1f370471faf45bf4e8cf655ac8b33a077e03a
+  CybavoWalletService: d1d3f73a663e06d66fbebbf0696fccf21cf19df7
+  ObjectMapper: 70187b8941977c62ccfb423caf6b50be405cabf0
+  React: ab1a2e21deb34965c38328d5ec40cc7d12c6050a
+  SwiftOTP: f5e4df69cd4d1642e4bb3cb9e12bf6e9669ea164
+  SwiftyUserDefaults: cebe0ff9472f52699772a514b6f7155861d8069b
+
+PODFILE CHECKSUM: fbf94003942efd57e753da496a13e1e3c643ec1a
+
+COCOAPODS: 1.7.5
