@@ -358,6 +358,7 @@
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
 		892BCFC7CC0A5C64BD6C79E6 /* Pods_CybavoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CybavoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		915E9C6FA018CCFCC1F21E68 /* Pods_CybavoTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CybavoTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		D69094C2AAEFE4F23B92D7F3 /* Pods-CybavoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CybavoTest.release.xcconfig"; path = "Target Support Files/Pods-CybavoTest/Pods-CybavoTest.release.xcconfig"; sourceTree = "<group>"; };
 		EBE8120F285F48E999E9C141 /* CybavoWalletService.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = CybavoWalletService.xcodeproj; path = "../node_modules/@cybavo/react-native-wallet-service/ios/CybavoWalletService.xcodeproj"; sourceTree = "<group>"; };
@@ -563,6 +564,7 @@
 				ED2971642150620600B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				892BCFC7CC0A5C64BD6C79E6 /* Pods_CybavoTest.framework */,
+				915E9C6FA018CCFCC1F21E68 /* Pods_CybavoTestTests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
