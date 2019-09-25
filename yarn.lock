@@ -656,10 +656,10 @@
     exec-sh "^0.3.2"
     minimist "^1.2.0"
 
-"@cybavo/react-native-wallet-service@1.2.13":
-  version "1.2.13"
-  resolved "https://registry.yarnpkg.com/@cybavo/react-native-wallet-service/-/react-native-wallet-service-1.2.13.tgz#60a5748a5ffafb3fc7bab1a4d715f7337d00e648"
-  integrity sha512-2HTstJtrF84HKKzEJuCl7oopsxkbPn3JnbXJbDboOPPTknJ2XyU3zkFur3wcpcRi+EecE8GTY1YuG2GB9MJbWQ==
+"@cybavo/react-native-wallet-service@1.2.19":
+  version "1.2.19"
+  resolved "https://registry.yarnpkg.com/@cybavo/react-native-wallet-service/-/react-native-wallet-service-1.2.19.tgz#7f71e8eca9a048227381c796a1c65b82b6774583"
+  integrity sha512-vzpTiw4cvu7LmxiaO8Xl+gUVdFDDaw4GwGgBO+YBUqhjYGIVShTEUa+JX7Zf8TbCD9gKxdsJ9ZDXCqPCHfxCBg==
 
 "@jest/console@^24.7.1", "@jest/console@^24.9.0":
   version "24.9.0"

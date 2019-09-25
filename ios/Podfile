@@ -2,7 +2,7 @@ use_frameworks!
 platform :ios, '11.0'
 
 source 'https://github.com/CocoaPods/Specs.git'
-source 'https://bitbucket.org/cybavo/Specs_501.git'
+source 'https://bitbucket.org/cybavo/Specs_510.git'
 
 target 'CybavoTest' do
 
@@ -30,6 +30,11 @@ target 'CybavoTest' do
     installer.analysis_result.specifications.each do |s|
       s.swift_version = '4.2' unless s.swift_version
     end
+  end
+
+  target 'CybavoTestTests' do
+    inherit! :search_paths
+    # Pods for testing
   end
 
 end

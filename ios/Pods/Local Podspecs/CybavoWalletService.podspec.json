@@ -9,7 +9,7 @@
     "file": "LICENSE"
   },
   "swift_versions": [
-    "4.2"
+    "5.0"
   ],
   "authors": {
     "CYBAVO": "dev@cybavo.com"
@@ -24,11 +24,11 @@
   "exclude_files": "Classes/Exclude",
   "dependencies": {
     "CYBAVOWallet": [
-      "~> 1.1.44"
+      "~> 1.1.127"
     ],
     "React": [
 
     ]
   },
-  "swift_version": "4.2"
+  "swift_version": "5.0"
 }

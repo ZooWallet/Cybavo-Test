@@ -7,7 +7,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@cybavo/react-native-wallet-service": "1.2.13",
+    "@cybavo/react-native-wallet-service": "1.2.19",
     "react": "16.8.3",
     "react-native": "0.59.3"
   },
